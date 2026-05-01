@@ -1,0 +1,63 @@
+/* Reset mínimo */
+* {
+  box-sizing: border-box;
+}
+
+/* Tipografía y layout base */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  color: #222;
+  background-color: #fff;
+}
+
+/* Encabezados */
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  margin-top: 2.5rem;
+  font-size: 1.4rem;
+}
+
+/* Texto */
+p {
+  margin: 1rem 0;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+/* Listas */
+ul {
+  padding-left: 1.2rem;
+}
+
+li {
+  margin: 0.4rem 0;
+}
+
+/* Enlaces */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #666;
+}
